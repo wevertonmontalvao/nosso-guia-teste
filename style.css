@@ -38,9 +38,11 @@ header img {
     display: flex;
     align-items: center;
     gap: 32px;
-    padding: 24px 80px 128px 80px;
+    padding: 100px 80px 128px 80px;
     position: relative;
     background-color: #DEDFDA;
+    margin: 30px ;
+    border-radius: 20px;
     
 }
 
@@ -114,6 +116,8 @@ h2 {
     text-align: center;
     padding: 64px 80px;
     background-color:  #DEDFDA;
+    margin: 30px;
+    border-radius: 30px;
    
 }
 
@@ -125,5 +129,100 @@ h2 {
 #farmacia .paragrafo {
     max-width: 950px;
     margin: 0 auto;
+}
+
+
+/* sessão duvidas e perguntas */ 
+
+#duvidas {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    padding: 64px 80px;
+}
+
+#duvidas img {
+    border: 1px solid #146A07; 
+    border-radius: 20px;
+}
+
+.duvida {
+    position: relative;
+}
+
+.duvida h3 {
+    border: 2px solid #146A07;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 24px;
+}
+
+.duvida img {
+    position: absolute;
+    top: 32px;
+    right: 24px;
+    width: 24px;
+}
+
+.duvida .paragrafo {
+    border-right: 1px solid #146A07;
+    border-bottom: 1px solid #146A07;
+    border-left: 1px solid #146A07;
+    border-radius: 0 0 8px 8px;
+    margin-top: -8px;
+    padding: 24px;
+}
+
+/* estilização do footer rodapé */
+
+footer {
+    background-color:#013832;
+    display: flex;
+    gap: 80px;
+    padding: 64px 80px;
+    justify-content: space-between;
+}
+
+footer .paragrafo {
+    color: #fff;
+}
+
+
+footer img
+footer .titulo {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+footer nav a   {
+    color:#fff;
+    display: block;
+    margin-bottom: 16px;
+    text-decoration: none;
+    
+}
+
+footer p {
+    margin-bottom: 16px;
+    max-width: 350px;
+}
+
+
+footer p a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+#copyright{
+    background-color: #263138;
+    padding: 24px;
+    text-align: center;
+    color: #fff;
+}
+
+#copyright a {
+    color: #ff9a6c;
 }
 
