@@ -61,6 +61,7 @@ h2 {
 .paragrafo {
     line-height: 150%;
     margin-bottom: 32px;
+    font-size: 15px;
 }
 
 
@@ -171,7 +172,20 @@ h2 {
     border-radius: 0 0 8px 8px;
     margin-top: -8px;
     padding: 24px;
+     /* este trexo do codigo tem relação com o javascript da pagina */
+     padding:0 24px;
+     height: 0;
+     opacity: 0;
+     overflow: hidden;
+     transition: .2s;
 }
+
+.duvida.ativa .paragrafo {
+    height: fit-content;
+    opacity: 1;
+    padding: 24px;
+}
+
 
 /* estilização do footer rodapé */
 
@@ -210,8 +224,16 @@ footer p {
 
 
 footer p a {
-    color: #fff;
+    color:#fff;
     text-decoration: none;
+}
+
+footer strong  {
+    color: #fff;
+}
+
+.cor {
+    color: #fff;
 }
 
 
